@@ -1,0 +1,106 @@
+*
+ .A
+    {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+     border-radius: 100px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/vedas.png);
+    cursor: pointer; 
+    margin: 20px;
+   transition: transform 0.3s ease;  
+   }
+   .A:hover
+   {
+           transform: scale(1.05);
+   }
+ .B
+    {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+     border-radius: 100px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/Ndm.png);
+    cursor: pointer;
+    margin: 20px;
+  transition: transform 0.3s ease;
+   }
+   .B:hover
+   {
+         transform: scale(1.05);
+   }
+ .C
+    {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+     border-radius: 100px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/ISSDC.jpg);
+       cursor: pointer;
+    margin: 20px;
+    transition: transform 0.3s ease;
+   }
+   .C:hover
+   {
+         transform: scale(1.05);
+   }
+ .D   
+ {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+     border-radius: 100px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/bhuvan.jpg);
+    margin: 20px;
+       cursor: pointer;
+       transition: transform 0.3s ease;
+   }
+   .D:hover
+   {
+        transform: scale(1.05);
+   }
+ .E
+    {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+     border-radius: 100px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/stem.jpg);
+    margin: 20px;
+       cursor: pointer;
+       transition: transform 0.3s ease;
+   
+   }
+   .E:hover
+   {
+    transform: scale(1.05);
+   }
+
+   /* div
+   {
+    display: flex;
+      flex-direction:  row;
+    flex-wrap: wrap-reverse;
+   } */
+   #i1
+   {
+     background-color:rgb(134, 131, 135, 0.9);
+   
+ 
+
+   }

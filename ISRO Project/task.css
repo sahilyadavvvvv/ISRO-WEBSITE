@@ -1,0 +1,78 @@
+*
+ .A
+    {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+     border-radius: 0px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/earphones.png);
+    cursor: pointer; 
+    margin: 20px;
+    transform: rotate(45deg) ;
+    /* border-bottom-left-radius: 100px ;
+    border-bottom-right-radius:150px ;
+    border-top-left-radius:200px ;
+    border-top-right-radius: 250px; */
+   }
+ .B
+    {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+     border-radius: 0px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/mobile.png);
+      transform: rotate(45deg) ;
+      margin: 20px;
+   }
+ .C
+    {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+     border-radius: 0px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/tv.png);
+      transform: rotate(45deg) ;
+      margin: 20px;
+   }
+ .D   
+ {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+     border-radius: 0px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/fridge.png);
+      transform: rotate(45deg) ;
+      margin: 20px;
+   }
+ .E
+    {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    border: 2px solid ;
+     border-radius: 0px;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/arrow.jpg.svg);
+      transform: rotate(45deg) ;
+      margin: 20px;
+   }
+
+   div
+   {
+    display: flex;
+      flex-direction:  row;
+    flex-wrap: wrap-reverse;
+   }

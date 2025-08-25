@@ -1,0 +1,42 @@
+/* universal selector*/
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Tag selector*/
+
+p{
+    font-size: larger;
+    background-color: blue;
+}
+
+/* universal selector */
+
+.A{
+    height : 100px;
+    width : 100px;
+    background-color: blue;
+    margin: 10px;
+}
+.B{
+    height : 100px;
+    width : 100px;
+    background-color: green;
+    margin: 10px;
+}
+
+div
+{
+    background-color: chocolate;
+    display: flex;
+    flex-direction:  row;
+    flex-wrap: wrap-reverse;
+}
+
+#i1
+{
+   cursor: pointer; 
+}

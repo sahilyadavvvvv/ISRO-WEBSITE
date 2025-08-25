@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Courses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(../images/blue.jpg);
+        }
+
+        ul {
+            background-color: rgb(134, 131, 135, 0.8);
+            display: flex;
+            list-style-type: none;
+            border: 2px solid;
+            margin-top: 5px;
+
+        }
+
+        li {
+            /* background-color: aqua; */
+            color: aliceblue;
+            /* border:2px solid black; */
+            padding: 3px;
+            margin: 0px;
+            flex: 1;
+            margin-right: 15px;
+            transition: transform 0.3s ease;
+            box-shadow: 10px 10px 10px black;
+        }
+
+        li:hover {
+            color: crimson;
+            /* background-color: cadetblue;  */
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            float: left;
+            margin: 10px 20px 10px 10px;
+        }
+
+        .ashok {
+            width: 80px;
+            height: 80px;
+            float: right;
+            margin: 10px 20px 10px 10px;
+        }
+
+        header {
+            display: inline;
+            background-color: rgb(134, 131, 135, 1);
+        }
+
+        .heading {
+            text-align: center;
+        }
+
+        footer {
+
+            background-color: rgb(134, 131, 135, 1);
+            height: 200px;
+            width: 100%;
+        }
+
+        .foot {
+            text-align: center;
+        }
+
+       .C1,.C2,.C3,.C4
+        {
+            height: 400px;
+            width: 275px;
+            background-color:rgb(134, 131, 135, 0.5);
+            margin: 10px;
+            margin-left: 40px;
+            box-shadow: 10px 10px 10px white;
+            border: 2px solid black;
+         
+        }
+         .C4:hover
+         {
+             cursor: pointer;
+            transform: scale(1.05);
+         }
+        .C3:hover
+         {
+            cursor: pointer;
+            transform: scale(1.05);
+         }
+       .C2:hover
+        {
+             cursor: pointer;
+            transform: scale(1.05);
+        }
+         .C1:hover
+         {
+              cursor: pointer;
+            transform: scale(1.05);
+         }
+
+        .tomakeinlign
+        {
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+       
+
+        img {
+            width: 100%;
+            height: 50%;
+        }
+
+        /* a {
+            color: black;
+            text-decoration: none;
+            margin-left: 150px;
+            padding: 5px;
+           
+        } */
+
+       
+
+        .title {
+            color: black;
+            background-color: white;
+        }
+
+
+        .button
+        {
+            background-color: #d6dbdf  ;
+            border-radius: 5px;
+            margin: 60px;
+            padding: 5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+            text-decoration: none;
+            color: black;  
+            text-align: center;
+         }
+        .tab
+        {
+            color: white;
+            text-align:center;
+            text-decoration: none;
+        }
+           .jd
+      {
+        color:black;
+       
+      }
+      .top3
+      {
+        background-color: white;
+      }
+    </style>
+
+</head>
+
+<body>
+    <div class="top3">
+    <header>
+        <img src="../images/isro.png" alt="ISRO logo" class="logo">
+        <img src="../images/ashok.jpg" alt="Ashok Stambh" class="ashok">
+
+        <h1 align="center">Indian Space Research Organization</h1>
+        <p class="heading">Government Of India</p>
+        <p class="heading">SRO Headquarters, Antariksh Bhavan, New BEL Road Bengaluru-560 094 Phone: +91 80 22172294 /
+            96 Email: isropr[at]isro[dot]gov[dot]in</p>
+
+    </header>
+        </div>
+    <nav>
+        <ul>
+            <li><a href="../Html/home.html" class="tab"><i class="fa-solid fa-house"></i>Home </li></a>
+            <li><a href="../CSS/aboutus.html" class="tab"><i class="fa-solid fa-info"></i>About us</li></a>
+            <li><a href="../CSS/courses.html" class="tab"><i class="fa-solid fa-address-book"></i> Courses</li></a> 
+            <li><a href="../CSS/career.html" class="tab"><i class="fa-brands fa-servicestack"></i>Career</li></a>
+           <li><a href="../CSS/login2.html" class="tab"><i class="fa-solid fa-registered"></i>Log/Register</li></a>
+        </ul>
+    </nav>
+    <main>
+        <div class="tomakeinlign">
+            <div class="C1">
+                <img src="../images/Scientific assistance.webp" alt="">
+                <H3 class="title">Scientific Assistant</H3>
+                <p class="jd"><b>Eligibility:</b>B.Sc with first class from a recognized University/ institutions
+                    <b>Salary:</b>44k-142k <br>
+                    <b>selection methodolgy:</b> Written Test + Interview
+                 </p>
+                <a href="" class="button">View details</a>
+            </div>
+
+            <div class="C2">
+                <img src="../images/technical.avif" alt="">
+                <H3 class="title">Technical Assistant</H3>
+                <p class="jd"><b>Eligibility:</b>Diploma (min 3 yrs duration) with First Class in Sound Engg <br>
+                    <b>Salary:</b>44k-142k <br>
+                    <b>selection:</b> Written Test + Interview
+                 </p>
+                <a href="" class="button">View details</a>
+            </div>
+
+            <div class="C3">
+                <img src="../images/scientist.jpg" alt="">
+                <H3 class="title">Scientist/Engineer</H3>
+                <p class="jd"><b>Eligibility:</b> BE/BTech or equivalent with an aggregate minimum of 65% 
+                    <b>Salary:</b>56k-177k <br>
+                     <b>selection methodolgy:</b> Written Test + Interview
+                </p>
+                <a href="" class="button">View details</a>
+            </div>
+
+            <div class="C4">
+                <img src="../images/radiograph.webp" alt="">
+                <H3 class="title">Radiographer</H3>
+                <p class="jd"><b>Eligibility:</b> Diploma in Radiography with First class <br>
+                    <b>Salary:</b>25K-80k <br>
+                    <b>selection: </b>Written Test + Skill Test  </p><br>
+                <a href="" class="button">View details</a>
+            </div>
+            
+                <div class="C1">
+                    <img src="../images/steno.avif" alt="">
+                    <H3 class="title">Stenographer</H3>
+                    <p class="jd"><b>Eligibility:</b> A minimum speed of 60 W.P.M in English stenography. <br>
+                        <b>Salary:</b> 25k-81k <br>
+                         <b>selection methodolgy:</b> Written Test + Skill Test
+                     </p>
+                    <a href="" class="button">View details</a>
+                </div>
+
+                <div class="C2">
+                    <img src="../images/acc.webp" alt="">
+                    <H3 class="title">Accounts Officer</H3>
+                    <p class="jd"><b>Eligibility:</b> 1 yrs exp in super capacity <br>
+                        <b>Salary:</b>56k-177k <br>
+                         <b>selection methodolgy:</b> Written Test + Interview
+                    </p> <br>
+                    <a href="" class="button">View details</a>
+                </div>
+
+                <div class="C3">
+                    <img src="../images/pharmacist.jpg" alt="">
+                    <H3 class="title">Pharmacist-A</H3>
+                    <p class="jd"><b>Eligibility:</b> Diploma in Pharmacy with First class <br>
+                                  <b>Salary:</b> 29k-92k <br>
+                                  <b>selection methodolgy: </b>Written Test + skill test
+                     </p>
+                    <a href="" class="button">View details</a>
+                </div>
+
+                <div class="C4">
+                    <img src="../images/clerk.jpg" alt="">
+                    <H3 class="title">Upper Division Clerk</H3>
+                    <p class="jd"><b>Eligibility:</b> Grad with a minimum of 60% marks or CGPA of 6.32 <br>
+                        <b>Salary:</b>25k-81k <br>
+                        <b>selection methodolgy:</b> Written Test + skill test    </p>
+                    <a href="" class="button">View details</a>
+                </div>
+        </div>
+
+</main>
+        </body>
+
+
+<footer>
+    <center>
+    <div class="foot">
+        <p>Copyright policy</p>
+        <p>website policy</p>
+        <p>FAQ</p>
+        <p>Terms of Use</p>
+
+        <h3>© Copyright 2023 ISRO. All Rights Reserved
+            Designed by CITG/MSA VSSC/ISRO</h3>
+    </div>
+</center>
+</footer>
+
+</html>
